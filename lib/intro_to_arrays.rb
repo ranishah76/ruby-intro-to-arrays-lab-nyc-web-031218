@@ -1,12 +1,31 @@
-def instantiate_new_array(array)
-  return array = []
+def instantiate_new_array
+  array.new
+  end
+
+def array_with_two_elements
+ [3, 4]
 end
 
-def array_with_two_elements(array)
-  array.push("hello", "name")
-  return array
+def first_element(array)
+   array[0]
+ end
+
+def third_element(array)
+  array[2]
+end 
+
+def last_element(array)
+  array[-1]
 end
 
-def first_element(argument, array)
-  return array.index[argument]
+def first_element_with_array_methods(array)
+	array.first
 end
+
+def last_element_with_array_methods(array)
+	array.last
+end
+
+def length_of_array(array)
+ array.size
+ end
